@@ -51,6 +51,42 @@ public class AssistantServiceImpl implements AssistantService {
     }
 
     @Override
+    public AssistantDto updateAssistant(Integer id, AssistantDto updatedAssistantDto) {
+        Assistant assistant = assistantRepository
+                .findById(id)
+                .orElseThrow(() -> new RuntimeException("[!] Assistant does not exist"));
+
+        if (updatedAssistantDto.getName() != null) {
+            assistant.setName(updatedAssistantDto.getName());
+        }
+        if (updatedAssistantDto.getEmail() != null) {
+            assistant.setEmail(updatedAssistantDto.getEmail());
+        }
+        if (updatedAssistantDto.getMobile() != null) {
+            assistant.setMobile(updatedAssistantDto.getMobile());
+        }
+        if (updatedAssistantDto.getRole() != null) {
+            assistant.setRole(updatedAssistantDto.getRole());
+        }
+        if (updatedAssistantDto.getDepartment() != null) {
+            assistant.setDepartment(updatedAssistantDto.getDepartment());
+        }
+        if (updatedAssistantDto.getSalary() != 0.0) {
+            assistant.setSalary(updatedAssistantDto.getSalary());
+        }
+        if (updatedAssistantDto.getCity() != null) {
+            assistant.setCity(updatedAssistantDto.getCity());
+        }
+        if (updatedAssistantDto.getCountry() != null) {
+            assistant.setCountry(updatedAssistantDto.getCountry());
+        }
+
+        Assistant savedAssistant = assistantRepository.save(assistant);
+
+        return AssistantMapper.maptoAssistantDto(savedAssistant);
+    }
+
+    @Override
     public List<AssistantDto> getAllAssistants() {
 
         List<Assistant> list = assistantRepository.findAll();

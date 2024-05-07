@@ -13,6 +13,8 @@ public interface AssistantService {
 
     AssistantDto incrementSalary(Integer id, Double increment);
 
+    AssistantDto updateAssistant(Integer id, AssistantDto updatedAssistantDto);
+
     List<AssistantDto> getAllAssistants();
 
     void deleteAssistant(Integer id);

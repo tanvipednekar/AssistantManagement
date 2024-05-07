@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/assistants")
+@RequestMapping("/assistant")
 public class AssistantController {
 
     private AssistantService assistantService;
@@ -32,6 +32,13 @@ public class AssistantController {
     public ResponseEntity<AssistantDto> getAssistantById(@PathVariable Integer id)
     {
         return new ResponseEntity<>(assistantService.getAssistantById(id), HttpStatus.OK);
+    }
+
+    //REST API for updating assistant
+    @PutMapping("/{id}")
+    public ResponseEntity<AssistantDto> updateAssistant(@PathVariable Integer id, @RequestBody AssistantDto updatedAssistantDto) {
+        AssistantDto assistantDto = assistantService.updateAssistant(id, updatedAssistantDto);
+        return ResponseEntity.ok(assistantDto);
     }
 
     //REST API for incrementing salary
