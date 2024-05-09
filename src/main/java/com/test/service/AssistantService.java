@@ -5,6 +5,7 @@ import jakarta.persistence.criteria.CriteriaBuilder;
 
 import java.util.List;
 
+
 public interface AssistantService {
 
     AssistantDto createAssistant(AssistantDto assistantDto);

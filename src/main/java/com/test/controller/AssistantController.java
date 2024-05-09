@@ -3,6 +3,7 @@ package com.test.controller;
 import com.test.dto.AssistantDto;
 import com.test.entity.Assistant;
 import com.test.service.AssistantService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +15,7 @@ import java.util.Map;
 @RequestMapping("/assistant")
 public class AssistantController {
 
+    @Autowired
     private AssistantService assistantService;
 
     public AssistantController(AssistantService assistantService) {

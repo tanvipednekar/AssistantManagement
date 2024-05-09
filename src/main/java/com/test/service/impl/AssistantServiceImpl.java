@@ -5,6 +5,7 @@ import com.test.entity.Assistant;
 import com.test.mapper.AssistantMapper;
 import com.test.repository.AssistantRepository;
 import com.test.service.AssistantService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,6 +14,7 @@ import java.util.stream.Collectors;
 @Service
 public class AssistantServiceImpl implements AssistantService {
 
+    @Autowired
     private AssistantRepository assistantRepository;
 
     public AssistantServiceImpl(AssistantRepository assistantRepository) {
@@ -108,6 +110,7 @@ public class AssistantServiceImpl implements AssistantService {
 
     @Override
     public void deleteAllAssistants() {
+
         assistantRepository.deleteAll();
     }
 
