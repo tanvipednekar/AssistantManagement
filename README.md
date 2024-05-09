@@ -1,4 +1,4 @@
-# Assistant Management System
+# Assistant Management System (Spring Boot)
 
 👨‍💼👩‍💼 A simple Spring boot backend application for managing assistants. 🖥️💼
 
