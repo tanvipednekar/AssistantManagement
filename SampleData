@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Amit Sharma",
+    "email": "amit.sharma@example.com",
+    "mobile": "+919876543210",
+    "role": "Assistant Manager",
+    "department": "Sales",
+    "salary": 60000,
+    "city": "Mumbai",
+    "country": "India"
+  },
+  {
+    "name": "Priya Patel",
+    "email": "priya.patel@example.com",
+    "mobile": "+918765432109",
+    "role": "Executive Assistant",
+    "department": "Finance",
+    "salary": 55000,
+    "city": "Delhi",
+    "country": "India"
+  },
+  {
+    "name": "Rahul Singh",
+    "email": "rahul.singh@example.com",
+    "mobile": "+911234567890",
+    "role": "Administrative Assistant",
+    "department": "Human Resources",
+    "salary": 50000,
+    "city": "Bangalore",
+    "country": "India"
+  },
+  {
+    "name": "Neha Deshmukh",
+    "email": "neha.deshmukh@example.com",
+    "mobile": "+919876543210",
+    "role": "Personal Assistant",
+    "department": "Marketing",
+    "salary": 48000,
+    "city": "Pune",
+    "country": "India"
+  },
+  {
+    "name": "Suresh Kumar",
+    "email": "suresh.kumar@example.com",
+    "mobile": "+919876543210",
+    "role": "Assistant Manager",
+    "department": "Operations",
+    "salary": 60000,
+    "city": "Chennai",
+    "country": "India"
+  },
+  {
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@example.com",
+    "mobile": "+911234567890",
+    "role": "Executive Assistant",
+    "department": "Finance",
+    "salary": 55000,
+    "city": "Mumbai",
+    "country": "India"
+  },
+  {
+    "name": "Rajesh Patel",
+    "email": "rajesh.patel@example.com",
+    "mobile": "+918765432109",
+    "role": "Administrative Assistant",
+    "department": "Human Resources",
+    "salary": 50000,
+    "city": "Delhi",
+    "country": "India"
+  },
+  {
+    "name": "Pooja Singh",
+    "email": "pooja.singh@example.com",
+    "mobile": "+919876543210",
+    "role": "Personal Assistant",
+    "department": "Marketing",
+    "salary": 48000,
+    "city": "Bangalore",
+    "country": "India"
+  },
+  {
+    "name": "Amit Kumar",
+    "email": "amit.kumar@example.com",
+    "mobile": "+911234567890",
+    "role": "Assistant Manager",
+    "department": "Sales",
+    "salary": 60000,
+    "city": "Pune",
+    "country": "India"
+  },
+  {
+    "name": "Sneha Sharma",
+    "email": "sneha.sharma@example.com",
+    "mobile": "+919876543210",
+    "role": "Executive Assistant",
+    "department": "Finance",
+    "salary": 55000,
+    "city": "Chennai",
+    "country": "India"
+  }
+]
