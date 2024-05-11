@@ -10,7 +10,7 @@ This README gives a brief overview of the REST API endpoints that have been ment
 - **Status Codes:** 
     - ✅ 201 Created: Successful creation of the assistant.
 
-![👋 Add Assistant Endpoint]()
+![👋 Add Assistant Endpoint](https://github.com/tanvipednekar/AssistantManagement/blob/master/PostmanScreenShots/Screenshot%202024-05-09%20174729.png?raw=true)
 
 ### 2. Get Assistant by ID
 - **URL:** `http://localhost:8080/assistant/{id}`
