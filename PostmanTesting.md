@@ -10,7 +10,7 @@ This README gives a brief overview of the REST API endpoints that have been ment
 - **Status Codes:** 
     - ✅ 201 Created: Successful creation of the assistant.
 
-![👋 Add Assistant Endpoint](https://private-user-images.githubusercontent.com/140900337/329245749-3edea85e-3b1d-4bd4-bc01-6c7312378e5a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTUyNTgzNDIsIm5iZiI6MTcxNTI1ODA0MiwicGF0aCI6Ii8xNDA5MDAzMzcvMzI5MjQ1NzQ5LTNlZGVhODVlLTNiMWQtNGJkNC1iYzAxLTZjNzMxMjM3OGU1YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUwOVQxMjM0MDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMjM0MWEyNjg2ODhmNDZjZWZlMTk2NjUzNjU3M2M2OGMxYzRlMDBmYmFiZjllMDgzZjEzNjJiMjU3NzJkOTBmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.eeWMxBFSbKrcui3o7Y3dF85IDJcsnD6IqDW2kq-7n8A)
+![👋 Add Assistant Endpoint]()
 
 ### 2. Get Assistant by ID
 - **URL:** `http://localhost:8080/assistant/{id}`
